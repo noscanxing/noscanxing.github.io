@@ -1,5 +1,5 @@
 
-export default function() {
+export default function Instruction() {
   return (
     <div className="container mx-auto py-10 px-4 max-w-4xl">
     使用方式: 每个部位7天一次 最好能按时按点 (比如1号上午10点开始用药 下次使用时间尽量保证在8号的上午10点)
