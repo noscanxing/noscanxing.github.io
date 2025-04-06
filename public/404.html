@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // 获取当前 URL 路径
+      const path = window.location.pathname;
+      const repo = '/manqingchen.github.io';
+      
+      // 如果路径以仓库名开头，去掉仓库名
+      const cleanPath = path.startsWith(repo) ? path.slice(repo.length) : path;
+      
+      // 重定向到正确的路径
+      window.location.replace(repo + '/?path=' + cleanPath);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html> 
